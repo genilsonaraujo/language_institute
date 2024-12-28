@@ -11,7 +11,7 @@ Este projeto é uma plataforma completa para gerenciamento e oferta de cursos em
 - Arduino
 - Informática
 
-#Designe do Projeto
+#Design do Projeto
  ![Pagina Index](media/img/pagina_grande.jpg)
 
 
