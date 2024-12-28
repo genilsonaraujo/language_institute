@@ -12,7 +12,7 @@ Este projeto é uma plataforma completa para gerenciamento e oferta de cursos em
 - Informática
 
 #Designe do Projeto
- ![Pagina Index](caminho-da-imagem)
+ ![Pagina Index](media/img/pagina_grande.jpg)
 
 
 ## Funcionalidades
