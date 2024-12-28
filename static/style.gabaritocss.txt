@@ -1,0 +1,810 @@
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%; /* No Flexbox: Cards ocupam 100% da largura em telas pequenas */
+} }
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  
+  
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  justify-content: center; /* Alinha horizontalmente */
+  gap: 20px;              /* Espaçamento entre as imagens */
+}
+
+header {
+  background: #c4c2c2;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  background: #f3efef;
+  color: #fff;
+  padding: 1rem 0;
+}
+.rectboard1 * {
+  box-sizing: border-box;
+}
+.rectboard1 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(249, 113, 8, 0.9) 100%
+  );
+  height: 200px;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  /*background-color: #f4f4f4; /* Cor de fundo opcional */
+  border: 1px solid #ddd; /* Borda opcional */
+}
+
+.flex-container {
+  display: flex; /* Ativa o layout flex */
+  justify-content: flex-end; /* Alinha os itens à direita */
+  align-items: center; /* Centraliza os itens verticalmente */
+  gap: 10px; /* Espaçamento entre os itens */
+}
+.jbli-logo-1,
+.jbli-logo-1 * {
+  box-sizing: border-box;
+}
+.jbli-logo-1 {
+  width: 209px;
+  height: 70px;
+  border-radius: 10px;
+  position: relative;
+  object-fit: cover;
+  margin-top: 0px; /* Ajusta a distância para baixo */
+  margin-right: -10px; /* Move para a esquerda */
+  
+  
+}
+.jbli-logo,
+.jbli-logo * {
+  box-sizing: border-box;
+}
+.jbli-logo {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 216px;
+  height: 82px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: -30px; /* Ajusta a distância para baixo */
+  margin-right: -20px; /* Move para a esquerda */
+  margin-bottom: -1px; /* Adiciona margem abaixo do texto */
+}
+
+
+
+.botao-portal,
+.botao-portal * {
+  box-sizing: border-box;
+}
+.botao-portal {
+  background: #fffefe;
+  border-radius: 20px;
+  width: 258px;
+  height: 62px;
+  position: relative;
+  position: absolute;
+  margin-top: 70px; /* Ajusta a distância para baixo */
+  margin-left: 0px; /* Move para a esquerda */
+  
+}
+.portal-do-aluno,
+.portal-do-aluno * {
+  box-sizing: border-box;
+}
+.portal-do-aluno {
+  color: #ff0d0d;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 228px;
+  height: 41px;
+  margin-top: 75px; /* Ajusta a distância para baixo */
+  margin-left: 0px; /* Move para a esquerda */
+}
+.meu-inferior,
+.meu-inferior * {
+  box-sizing: border-box;
+}
+.meu-inferior {
+  background: #efe0e0;
+  height: 50px;
+  width: 1343px;
+  position: relative;
+}
+.jbli-2-1,
+.jbli-2-1 * {
+  box-sizing: border-box;
+}
+.jbli-2-1 {   /*IMAGENS NO INICIO DA PAGINA*/
+  height: 200px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;        /* Garante que as imagens não ultrapassem o contêiner */
+  height: auto;           /* Mantém a proporção das imagens */
+}
+.jbli-psc-1,
+.jbli-psc-1 * {
+  box-sizing: border-box;
+}
+.jbli-psc-1 {
+  height: 220px;
+  position: relative;
+  object-fit: cover;
+}
+.horizontal {
+  display: flex;
+  gap: 20px; /* Espaço entre as imagens */
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+}
+
+.horizontal img {
+  width: 150px; /* Define largura */
+  height: center; /* Mantém a proporção */
+}
+.vertical {
+  display: flex;
+  flex-direction: column; /* Define alinhamento vertical */
+  gap: 20px; /* Espaço entre as imagens */
+  align-items: center; /* Centraliza as imagens horizontalmente */
+}
+
+.vertical img {
+  width: 150px; /* Define largura */
+  height: auto; /* Mantém a proporção */
+}
+.l-1,
+.l-1 * {
+  box-sizing: border-box;
+}
+.l-1 {
+  height: 486px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.l-2-1,
+.l-2-1 * {
+  box-sizing: border-box;
+}
+.l-2-1 {
+  height: 485.9px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.card-ingles,
+.card-ingles * {
+  box-sizing: border-box;
+}
+.card-ingles {
+  background: #d9d9d9;
+  width: 288px;
+  height: 396px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.ingles-1,
+.ingles-1 * {
+  box-sizing: border-box;
+}
+.ingles-1 {
+  width: 288px;
+  height: 202px;
+  position: relative;
+  object-fit: cover;
+}
+
+
+.curso-de-ingl-s,
+.curso-de-ingl-s * {
+  box-sizing: border-box;
+}
+.curso-de-ingl-s {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.certificado,
+.certificado * {
+  box-sizing: border-box;
+}
+.certificado {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 142px;
+  height: 31px;
+}
+.certificado-1,
+.certificado-1 * {
+  box-sizing: border-box;
+}
+.certificado-1 {
+  width: 41px;
+  height: 41px;
+  position: relative;
+  object-fit: cover;
+}
+.material-impresso,
+.material-impresso * {
+  box-sizing: border-box;
+}
+.material-impresso {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 142px;
+  height: 45px;
+}
+.livro-1,
+.livro-1 * {
+  box-sizing: border-box;
+}
+.livro-1 {
+  width: 41px;
+  height: 41px;
+  position: relative;
+  object-fit: cover;
+}
+.card-espanhol,
+.card-espanhol * {
+  box-sizing: border-box;
+}
+.card-espanhol {
+  background: #d9d9d9;
+  width: 288px;
+  height: 396px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.espanhol-1,
+.espanhol-1 * {
+  box-sizing: border-box;
+}
+.espanhol-1 {
+  width: 288px;
+  height: 202px;
+  position: relative;
+  object-fit: cover;
+}
+.card-informatica,
+.card-informatica * {
+  box-sizing: border-box;
+}
+.card-informatica {
+  background: #d9d9d9;
+  width: 288px;
+  height: 396px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.informatica-1,
+.informatica-1 * {
+  box-sizing: border-box;
+}
+.informatica-1 {
+  width: 288px;
+  height: 202px;
+  position: relative;
+  object-fit: cover;
+}
+.card-arduino,
+.card-arduino * {
+  box-sizing: border-box;
+}
+.card-arduino {
+  background: #d9d9d9;
+  width: 288px;
+  height: 396px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arduino-1,
+.arduino-1 * {
+  box-sizing: border-box;
+}
+.arduino-1 {
+  width: 288px;
+  height: 202px;
+  position: relative;
+  object-fit: cover;
+}
+.slide-2-1,
+.slide-2-1 * {
+  box-sizing: border-box;
+}
+.slide-2-1 {
+  height: 453px;
+  position: relative;
+  object-fit: cover;
+}
+.rectboard,
+.rectboard * {
+  box-sizing: border-box;
+}
+.rectboard {
+  border-radius: 20px;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  overflow: visible;
+}
+.turmas-dispon-veis,
+.turmas-dispon-veis * {
+  box-sizing: border-box;
+}
+.turmas-dispon-veis {
+  color: #fff6f6;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  position: relative;
+  height: 78px;
+}
+.retangulo-horarios,
+.retangulo-horarios * {
+  box-sizing: border-box;
+}
+.retangulo-horarios {
+  background: #fffcfc;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #05f309;
+  border-width: 5px;
+  height: 340px;
+  width: 600;
+  position: relative;
+  align-self: start;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  
+}
+.dias-e-hor-rios,
+.dias-e-hor-rios * {
+  box-sizing: border-box;
+}
+.dias-e-hor-rios {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  position: relative;
+}
+.turma,
+.turma
+  * {
+  box-sizing: border-box;
+}
+.turma {
+  color: #1d6cff;
+  text-align: center;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  position: relative;
+  height: 218px;
+}
+
+.rectangle-3,
+.rectangle-3 * {
+  box-sizing: border-box;
+}
+.rectangle-3 {
+  background: #356eff;
+  border-radius: 20px;
+  height:400px;
+  width: 400px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.carreira,
+.carreira
+  * {
+  box-sizing: border-box;
+}
+.carreira {
+  color: #fff7f7;
+  text-align: center;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  position: relative;
+  height: 448px;
+}
+.estudante-1,
+.estudante-1 * {
+  box-sizing: border-box;
+}
+.estudante-1 {
+  max-width: 50%; /* Limita a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  align-self: flex-end; /* Alinha a imagem ao final */
+}
+.book,
+.book * {
+  box-sizing: border-box;
+}
+.book {
+  height: 486px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.retangulo-pagamentos,
+.retangulo-pagamentos * {
+  box-sizing: border-box;
+}
+.retangulo-pagamentos {
+  background: #b6b4b4;
+  height: 395px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.politica,
+.politica * {
+  box-sizing: border-box;
+}
+.politica {
+  color: #fffcfc;
+  text-align: left;
+  font-family: "Itim-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  height: 145px;
+  text-decoration: underline;
+}
+
+.retangulo-flooter,
+.retangulo-flooter * {
+  box-sizing: border-box;
+}
+.retangulo-flooter {
+  background: #fffcfc;
+  height: 100px;
+  width: 3200px;
+  position: relative;
+}
+.todos,
+.todos
+  * {
+  box-sizing: border-box;
+}
+.todos {
+  color: #aeaaaa;
+  text-align: center;
+  font-family: "Itim-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  height: 140px;
+}
+.formas-de-pagamento,
+.formas-de-pagamento * {
+  box-sizing: border-box;
+}
+.formas-de-pagamento {
+  color: #fff7f7;
+  text-align: center;
+  font-family: "Itim-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  height: 28px;
+}
+.visa-1,
+.visa-1 * {
+  box-sizing: border-box;
+}
+.visa-1 {
+  width: 77px;
+  height: 22px;
+  position: relative;
+  object-fit: cover;
+}
+.siga-nas-redes-sociais,
+.siga-nas-redes-sociais * {
+  box-sizing: border-box;
+}
+.siga-nas-redes-sociais {
+  color: #fff7f7;
+  text-align: center;
+  font-family: "Itim-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  height: 28px;
+}
+.facebook,
+.facebook * {
+  box-sizing: border-box;
+}
+.facebook {
+  width: 44px;
+  height: 43px;
+  position: relative;
+  object-fit: cover;
+}
+.pelo-whatsapp-ligue,
+.pelo-whatsapp-ligue * {
+  box-sizing: border-box;
+}
+.pelo-whatsapp-ligue {
+  color: #fff7f7;
+  text-align: center;
+  font-family: "Itim-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  height: 28px;
+}
+._11-95490-6515,
+._11-95490-6515 * {
+  box-sizing: border-box;
+}
+._11-95490-6515 {
+  color: #fff7f7;
+  text-align: center;
+  font-family: "Itim-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  height: 28px;
+}
+.what,
+.what * {
+  box-sizing: border-box;
+}
+.what {
+  width: 74px;
+  height: 73px;
+  position: relative;
+  transform-origin: 0 0;
+  object-fit: cover;
+}
+
+.imagem, .retangulo {
+  width: 150px;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'NomeDaFonte', sans-serif;
+}
+.elemento {
+  width: 200px;
+  height: 100px;
+}
+
+.cards-container {
+  display: flex; /* Ativa o layout flex */
+  gap: 20px; /* Espaçamento entre os cards */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha em telas menores */
+  padding: 20px;
+}
+
+.card {
+  flex: 1 1 calc(25% - 20px); /* Cada card ocupa 25% da largura */
+  max-width: 300px; /* Limita a largura máxima */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.curso-imagem {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.curso-info {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+#livros {
+  padding: 20px;
+  background-color: #f9f9f9; /* Cor de fundo opcional */
+}
+
+.livros-container {
+  display: flex; /* Ativa o layout flex */
+  gap: 20px; /* Espaçamento entre as imagens */
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+}
+
+.book {
+  width: 150px; /* Largura fixa para todas as imagens */
+  height: auto; /* Mantém a proporção */
+  border-radius: 10px; /* Borda arredondada opcional */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+.retangulo-pagamentos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #cfcaca;
+  border: 1px solid #ddd;
+  gap: 20px;
+  height: 250px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.siga-nas-redes-sociais ul,
+.pelo-whatsapp-ligue .whatsapp-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-section {
+  text-align: right;
+}
+
+.formas-de-pagamento ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0;
+}
+
+.siga-nas-redes-sociais ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0;
+}
+
+.formas-de-pagamento img,
+.siga-nas-redes-sociais img,
+.pelo-whatsapp-ligue img {
+  width: 40px; /*tamanho icones de pagamento
+  height: auto; /* Mantém a proporção correta */
+  object-fit: contain; /* Garante que a imagem seja ajustada sem cortar */
+  
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  color: #333;
+}
+
+.whatsapp-info span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.container_page {
+  max-width: 1200px; /* Largura máxima da área do conteúdo */
+  margin: 0 auto;    /* Centraliza o container horizontalmente */
+  padding: 20px;     /* Espaço interno em torno do conteúdo */
+  box-sizing: border-box; /* Inclui padding e bordas no tamanho total */
+  gap: 20px;              /* Espaçamento entre as imagens */
+}
+
+/* Conteúdo adicional para alinhamento */
+header, section, footer {
+  margin-bottom: 20px;
+  text-align: center; /* Alinha o texto no centro (opcional) */
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+section p, footer p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.maior  {
+ font-size: 18px;
+ color:#05f309;
+}
+
+.aluna {
+  width: 350px;
+  height: 400px;
+}
